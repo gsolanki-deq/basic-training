@@ -1,13 +1,11 @@
 var flatObject = {
     "emp_name" : "Gunjan",
-    "emp_vehicle": "car",
     "emp_vehicle.model" : "maruti",
     "emp_dept" : "Finance",
     "emp.batch": "OSS",
   }
   
   a = Object.keys(flatObject);
-  b= Object.values(flatObject);
   console.log(a)
   
   function unflatten(flatObject) {
