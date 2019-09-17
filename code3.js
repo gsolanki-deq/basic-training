@@ -7,9 +7,8 @@ obj = {
 v= Object.keys(obj)
 
 function flatten(unflatObject) {
-    c=Object.keys(unflatObject)
-    res = c.reduce(function(e,v){
-    return e.concat(v, unflatObject[v])
+    res = v.reduce(function(e,v1){
+    return e.concat(v1, unflatObject[v1])
     },[])
 }
 
