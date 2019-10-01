@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "08584027-a147-40c9-bc25-05c4b233ee3b",
+		"name": "Species",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "species_schema",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}{{schema_sp}}",
+					"host": [
+						"{{host}}{{schema_sp}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}species",
+					"host": [
+						"{{host}}species"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "be61eae9-5b40-4f25-a1e8-f78daaf23fe0",
+			"key": "schema_sp",
+			"value": "species/schema",
+			"type": "string"
+		}
+	]
+}
