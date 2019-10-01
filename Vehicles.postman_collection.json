@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "2f0fd233-27ae-4a0a-b73b-145d5a824d3d",
+		"name": "Vehicles",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "vehicle_schema",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}{{schema_v}}",
+					"host": [
+						"{{host}}{{schema_v}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list Vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}vehicles",
+					"host": [
+						"{{host}}vehicles"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "477d62db-1526-45b0-bc07-cbc6c1cbcad0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "37bbd429-aadd-451f-9f5d-4fdcf701cd4d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "ac8532b2-0909-45da-93c3-afbfcf7c6b81",
+			"key": "schema_v",
+			"value": "vehicles/schema",
+			"type": "string"
+		}
+	]
+}

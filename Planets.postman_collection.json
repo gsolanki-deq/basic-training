@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "996d1686-cb13-4db1-9170-9fb3bae19677",
+		"name": "Planets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "planet_schema",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}{{schema_pt}}",
+					"host": [
+						"{{host}}{{schema_pt}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a20c0b9c-b916-4f90-aadc-3ebdc29a6c3f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "1c2e3d54-2649-4bd7-afc0-2a42df226e77",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "6f289fa9-d9b4-4896-8b22-606743af577e",
+			"key": "schema_pt",
+			"value": "planets/schema",
+			"type": "string"
+		}
+	]
+}

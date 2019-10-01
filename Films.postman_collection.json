@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "4b70a35f-31aa-4d86-bb24-664f2d01cc07",
+		"name": "Films",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "films_schema",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}{{schema_f}}",
+					"host": [
+						"{{host}}{{schema_f}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list films : The Phantom Menace",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search=The Phantom Menace",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "The Phantom Menace"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list film : A New Hope",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search=A New Hope",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "A New Hope"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list film : Attack of the Clones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search =Attack of the Clones",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search ",
+							"value": "Attack of the Clones"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list film : Revenge of the Sith",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search=Revenge of the Sith",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Revenge of the Sith"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list film : Return of the Jedi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search=Return of the Jedi",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Return of the Jedi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list film : The Empire Strikes Back",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search=The Empire Strikes Back",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "The Empire Strikes Back"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list films : The Force Awakens",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}films?search=The Force Awakens",
+					"host": [
+						"{{host}}films"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "The Force Awakens"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "82ce16e7-534f-44f6-859e-723e5ed087c5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c9a5b69d-cbac-4b82-b695-b40832ce3646",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "844077b9-78bc-4b31-9cdd-1715a761ae66",
+			"key": "schema_f",
+			"value": "films/schema",
+			"type": "string"
+		}
+	]
+}
